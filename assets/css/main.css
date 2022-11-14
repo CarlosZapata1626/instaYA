@@ -46,8 +46,21 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
+#titulo_pagina{
+  font-family: 'Emblema One';
+  font-size: 80px;
+  padding-left: 150px;
+}
+
+h2{
+  font-family: var(--font-primary);
+  text-align: center;
+  font-size: 80px;
+}
+#texto_Nosotros{
+  font-size: 80px;
+}
+
 h3,
 h4,
 h5,
