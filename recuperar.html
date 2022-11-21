@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>instaYA</title>
+  <title>instaYA - Inicio de sesión</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/diseno-de-producto.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -18,7 +18,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -26,7 +25,6 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -57,37 +55,59 @@
         <ul>
           <li><a href="index.html" class="active">Inicio</a></li>
           <li><a href="about.html">Nosotros</a></li>
-          <li><a href="contact.html">Contáctenos</a></li>
-          <li><a href="polPrivacidad.html">Política de privacidad</a></li>
-          <li><a href="login.html" class="get-a-quote">Inicio de sesión</a></li>
+          <li><a href="contactenos.html">Contáctenos</a></li>
+          <li><a href="polPrivacidad.html">Políticas de privacidad</a></li>
+          <li><a href="login.html">Inicio de sesión</a></li>
         </ul>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
-  <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row gy-4 d-flex justify-content-between">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2 data-aos="fade-up">Consulta el estado de tu paquete:</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Con tu código de seguimiento investigue el estado de su paquete.</p>
 
-          <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-            <input type="text" class="form-control" placeholder="Código de seguimiento">
-            <button type="submit" class="btn btn-primary">Buscar</button>
-          </form>
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <br><br>
+              <h2 id="texto_Nosotros">Recuperar contraseña</h2>
+            </div>
+          </div>
         </div>
-
-        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <img src="assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt="">
-        </div>
-
       </div>
-    </div>
-  </section><!-- End Hero Section -->
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Recuperar contraseña</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= resgistrer Section ======= -->
+    <section id="hero" class="hero">
+        <div class="container_register">
+            <form id="registrarse">
+              <h1 class="title">Recuperar</h1>
+
+              <div class="inputContainer">
+              <input type="email" name="email" id="email" class="input" placeholder="Ingrese su correo">
+              <label for="email address" class="label">Email Adress:</label>
+              
+              </div>
+              <br><br>
+              <input id="boton-registrarse" type="submit" value="Recuperar" class="submitBtn">
+              <br><br>
+            </form>
+            </div>
+
+    </section>
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
